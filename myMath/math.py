@@ -22,5 +22,13 @@ class Mathematic:
     def Multiply(self, x, y):
         result = self.geometric.Multiplication(x, y)
         print('Multiplication of two numbers: ' + str(result))
+        
+    def Subtraction(self, x, y):
+        result = self.arithmatic.Subtraction(x, y)
+        print('Difference of two numbers: ' + str(result))
+        
+    def Division(self, x, y):
+        result = self.geometric.Division(x, y)
+        print('Quotient of two numbers: ' + str(result))
 
    
