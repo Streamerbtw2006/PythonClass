@@ -30,5 +30,9 @@ class Mathematic:
     def Division(self, x, y):
         result = self.geometric.Division(x, y)
         print('Quotient of two numbers: ' + str(result))
+        
+    def Area(self, x, y):
+        result = self.geometric.Area(x, y)
+        print('Area of rectangle: ' + str(result))
 
    
